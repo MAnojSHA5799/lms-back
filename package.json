@@ -1,4 +1,12 @@
 {
+  "name": "LMS",
+  "version": "1.0.0",
+  "description": "Leave management system",
+  "main": "Supab.js", 
+  "scripts": {
+    "start": "node Supab.js",
+    "server": "nodemon Supab.js"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.8",
     "body-parser": "^1.20.2",
