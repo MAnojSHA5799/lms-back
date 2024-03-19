@@ -4,8 +4,7 @@
   "description": "Leave management system",
   "main": "Supab.js", 
   "scripts": {
-    "start": "node Supab.js",
-    "server": "nodemon Supab.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.8",
