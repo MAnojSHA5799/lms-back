@@ -1,10 +1,12 @@
 {
-  "name": "LMS",
+  "name": "Server",
   "version": "1.0.0",
-  "description": "Leave management system",
-  "main": "Supab.js", 
+  "description": "Your project description",
+  "main": "Supab.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Supab.js",
+    "server": "nodemon Supab.js",
+    "build": "npm run build" 
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.8",
